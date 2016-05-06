@@ -345,7 +345,11 @@ div.has-children div.project-content {
     /*font-family: "UniversElseLight", "DejaVu Sans", Helvetica, Arial, Sans-Serif;*/
 }
 
-div.has-children div.project-content#project-1793, div.has-children div.project-content#project-4461 {
+/* des pages avec des sous pages: les trucs d’introduction déroulent pas */
+div.has-children div.project-content#project-1793,
+div.has-children div.project-content#project-4461,
+div.has-children div.project-content#project-4026,
+div.has-children div.project-content#project-3201 {
     display: inherit;
 }
 
